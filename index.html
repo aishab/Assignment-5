@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Aysegul Bulut, Assignment-5</title>
+ <link rel="stylesheet" type="text/css" href="style/assignment5.css" />
+  
+ <script src="js/assignment5.js"></script>
+ 
+</head>
+ 
+<body>
+ 
+<section id="main">
+    <h1>Assignment-5</h1>
+    <hr>
+    <select onchange="MenuChoice()" id="menu">
+        <option>Please select an option:</option>
+        <option>Customer List</option>
+        <option>Customers Order History</option>
+        <option>List of Orders Placed by Customer</option>
+    </select>
+</section>
+
+    
+ <section id="sec1" class="sec1">
+    <label id="x">Please click the button to see the Customers List: </label>
+    <br><br>
+        <button onclick="custList()" id="orders">Customer List</button> <hr>
+        <br>
+    <label id="orderdisplay"></label>
+</section>
+ 
+ <section id="sec2" class="sec2">
+    <label id="x">Please enter a Customer ID: </label>
+        <input type="text" id="custid">
+        <br>
+        <button onclick="GetOrders()" id="orders">Get Customer Orders</button> <hr>
+        <br>
+    <label id="order"></label>
+</section>
+    
+ <section id="sec3" class="sec3">
+    <label id="x">Please enter a Customer ID: </label>
+        <input type="text" id="cusid">
+        <br>
+        <button onclick="Orders()" id="orders">Get Customer Orders</button> <hr>
+        <br>
+    <label id="display"></label>
+ </section>
+  
+ <footer class="foot"><p>&#42; Aysegul Bulut &#42; abulut@uab.edu &#42;</p></footer>
+ 
+</body>
+</html>
